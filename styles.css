@@ -1,0 +1,104 @@
+body{
+  background: rgb(58,58,58);
+  color:white;
+  font-family: sans-serif,Arial,helvetica;
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: black;
+  background-image: url("58883309_2302512100032343_8150775399066008689_n.jpg");
+  background-size: 100%;
+  background-position: center;
+  text-align: left;
+  font-family: sans-serif,helvetica,Arial;
+  padding:20px;
+  height:300px;
+}
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+header .mobile{
+  display:none;
+}
+header .logo a{
+  background-image: url("logo.jpeg");
+  background-size:300px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height:300px;
+  position: relative;
+  text-indent: -9999999px;
+  top:-30px;
+  width:400px;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav li{
+  display: inline-block;
+  margin-right: 20px;
+}
+@media screen and (max-width:715px){
+  header{
+    height: 200px;
+    background-position: 0 -0px;
+}
+header .mobile{
+    display:inline-block;
+  }
+  header .desktop{
+    display:none;
+  }
+}
+@media screen and (max-width:800px){
+  header{
+    width:100%;
+  }
+}
+.features{
+  background: white;
+  color: gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.features figure{
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width:200px;
+}
+.features figure img{
+  border: 1px solid white;
+  width:200px;
+  box-shadow: black 0 0 10px;
+  border-radius: 50%;
+}
+footer{
+  background: black;
+  color: gray;
+  font-size: 20px 20px;
+  text-align: center;
+}
+footer .logo1 a{
+  background-repeat: no-repeat;
+  display: inline-block;
+  height:10px;
+  position: relative;
+  text-indent: -9999999px;
+  top:-30px;
+  width:50px;	
+}
+#social{
+  padding-bottom: 10px;
+}
+#social img{
+  width: 30px;
+}
